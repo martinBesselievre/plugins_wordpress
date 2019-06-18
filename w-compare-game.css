@@ -1,0 +1,273 @@
+.gp-game-module {
+    position: relative;
+    min-width: 180px;
+}
+
+     .gp-game-module .game-thumbnail img {
+         display: block;
+         width: 100%;
+     }
+
+     .gp-game-module .game-thumbnail .icon-gp {
+         position: absolute;
+         display: block;
+         width: 53px;
+         height: 46px;
+         right: -15px;
+    	 top: -21px;
+         background: url('./img/gp-module-sprites.png');
+     }
+
+    .gp-game-module .game-name {
+        background: #0061ce;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 0.8rem;
+        padding: 8px 0 5px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    }
+
+    .selected-platform {
+        width: 100%;
+        background: #333;
+        height: 32px;
+    }
+
+        .selected-platform .icon-platform{
+            display: block;
+            height: 32px;
+            margin: 0 auto;
+        }
+
+         .availability .icon-platform {
+            display: inline-block;
+            height: 32px;
+            margin: 0 1px 2px 0;
+         }
+
+            .selected-platform .icon-platform.linux, .availability .icon-platform.linux {
+                width: 34px;
+                background: url('./img/gp-module-sprites.png') 0 -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.mac, .availability .icon-platform.mac {
+                width: 34px;
+                background: url('./img/gp-module-sprites.png') -35px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.pc, .availability .icon-platform.pc {
+                width: 59px;
+                background: url('./img/gp-module-sprites.png') -70px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.ps4, .availability .icon-platform.ps4 {
+                width: 93px;
+                background: url('./img/gp-module-sprites.png') -130px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.ps3, .availability .icon-platform.ps3 {
+                width: 93px;
+                background: url('./img/gp-module-sprites.png') -224px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.psp, .availability .icon-platform.psp {
+                width: 99px;
+                background: url('./img/gp-module-sprites.png') -318px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.psvita, .availability .icon-platform.psvita {
+                width: 99px;
+                background: url('./img/gp-module-sprites.png') -418px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.xboxone, .availability .icon-platform.xboxone {
+                width: 99px;
+                background: url('./img/gp-module-sprites.png') -518px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.xbox360, .availability .icon-platform.xbox360 {
+                width: 98px;
+                background: url('./img/gp-module-sprites.png') -618px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.wiiu, .availability .icon-platform.wiiu {
+                width: 73px;
+                background: url('./img/gp-module-sprites.png') -717px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.ds, .availability .icon-platform.ds {
+                width: 79px;
+                background: url('./img/gp-module-sprites.png') -791px -115px scroll no-repeat;
+            }
+
+            .selected-platform .icon-platform.wii, .availability .icon-platform.wii {
+                width: 56px;
+                background: url('./img/gp-module-sprites.png') -871px -115px scroll no-repeat;
+            }
+
+    .gp-game-module .shop-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        max-height: 165px;
+        overflow: auto;
+    }
+    
+    	.gp-game-module .shop-list li {
+    		margin: 0;
+    	}
+
+        .gp-game-module .shop-list li:nth-child(even) {
+                background: #efefef;
+            }
+
+        .gp-game-module .shop-list li a {
+            display: block;
+            width: 100%;
+            height: 55px;
+            padding: 15px 0 0 0;
+            border-bottom: 1px solid #ccc;
+            overflow: hidden;
+            -webkit-box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    		box-sizing: border-box;
+        }
+
+            .gp-game-module .shop-list li a:hover {
+                background: #ccc;
+            }
+
+                .gp-game-module .shop-list li a .logo {
+                    display: block;
+                    float: left;
+                    width: 35%;
+                    margin-left: 3%;
+                }
+
+                    .gp-game-module .shop-list li a .logo img {
+                        max-width: 100%;
+                        height: 32px !important;
+                    }
+
+                    .gp-game-module .method {
+                        width: 36px;
+                        height: 30px;
+                        float: right;
+                    }
+
+                        .gp-game-module .method.uplay {
+                            background: url('./img/gp-module-sprites.png') -4px -66px scroll no-repeat;
+                        }
+
+                        .gp-game-module .method.origin {
+                            background: url('./img/gp-module-sprites.png') -74px -66px scroll no-repeat;
+                        }
+
+                        .gp-game-module .method.rockstar {
+                            background: url('./img/gp-module-sprites.png') -108px -66px scroll no-repeat;
+                        }
+
+                        .gp-game-module .method.steam {
+                            background: url('./img/gp-module-sprites.png') -144px -68px scroll no-repeat;
+                        }
+
+                        .gp-game-module .method.battlenet {
+                            background: url('./img/gp-module-sprites.png') -180px -66px scroll no-repeat;
+                        }
+
+                        .gp-game-module .method.direct-download {
+                            background: url('./img/gp-module-sprites.png') -214px -67px scroll no-repeat;
+                        }
+
+                        .gp-game-module .method.box {
+                            background: url('./img/gp-module-sprites.png') -250px -66px scroll no-repeat;
+                        }
+
+                    .gp-game-module .price {
+                        display: block;
+                        float: right;
+                        text-align: right;
+                        margin:0 10px;
+                        font-weight: 500;
+                        font-size: 2rem;
+                        line-height: 34px;
+                        color: #333;
+                    }
+
+                        .gp-game-module .top-price {
+                            color: #0061ce;
+                        }
+
+                    .gp-game-module .price sup {
+                        font-size: 1rem;
+                    }
+
+    .gp-game-module a.show-more {
+        display: block;
+        width: 100%;
+        background: #999;
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding: 10px 0;
+        color: #333;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .gp-game-module a.show-more:hover {
+            background: #666;
+            color: #fff;
+        }
+
+    .gp-game-module .availability {
+        font-size: 0.9rem;
+        padding: 15px 0 5px 0;
+        color: #999;
+        text-align: center;
+    }
+
+        .gp-game-module .availability span {
+            width: 100%;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+
+/* DARK TEMPLATE (class .dark) */
+
+.gp-game-module.dark {
+    background: #b1b1b1;
+}
+
+.gp-game-module.dark .shop-list li:nth-child(even) {
+    background: #ccc;
+}
+
+.gp-game-module.dark .shop-list li a:hover {
+    background: #efefef;
+}
+
+.gp-game-module.dark .shop-list li a {
+    border-bottom: 1px solid #333;
+}
+
+.gp-game-module.dark .price.top {
+    color: #333;
+}
+
+.gp-game-module.dark a.show-more {
+    background: #555;
+    color: #fff;
+    font-weight: 400;
+}
+
+    .gp-game-module a.show-more:hover {
+        background: #333;
+    }
+
+.gp-game-module .availability {
+    color: #555;
+}

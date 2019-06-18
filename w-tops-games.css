@@ -1,0 +1,171 @@
+.w-most-viewed {
+    font-family: 'Arial', sans-serif;
+}
+
+.w-title {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    padding: 12px 5px;
+    text-transform: uppercase;
+    background: #333
+}
+
+    .w-title span {
+        font-weight: 600;
+    }
+
+.w-filters {
+    background: #ddd;
+    padding: 5px 0 0;
+}
+    .w-filters ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .w-filters .w-platform-filters {
+        padding: 0 15px;
+        margin-bottom: 0;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+        .w-filters .w-platform-filters li {
+            display: inline-block;
+            padding: 0 0 4px 1px;
+        }
+
+            .w-filters .w-platform-filters li a {
+                font-size: 0.65rem;
+                text-decoration: none;
+                font-weight: 500;
+                background: #9e9e9e;
+                border-radius: 2px;
+                color: #fff;
+                padding: 4px 6px;
+                display: inline-block;
+                -webkit-box-shadow:inset 0 1px 1px 0 rgba(106,106,106,1);
+                box-shadow:inset 0 1px 1px 0 rgba(106,106,106,1);
+            }
+
+                .w-filters .w-platform-filters li a:hover {
+                    color: #333;
+                }
+
+                .w-filters .w-platform-filters li.active a {
+                    background: #444;
+                    color: #ffc000;
+                    -webkit-box-shadow:inset 0 1px 1px 0 rgba(15,15,15,1);
+                    box-shadow:inset 0 1px 1px 0 rgba(15,15,15,1);
+                    cursor: default;
+                }
+
+.w-support-filters {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+    margin: 10px 0 0 0;
+}
+
+    .w-support-filters li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .w-support-filters li a {
+        color: #333;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 700;
+    }
+
+        .w-support-filters li a:hover {
+            border-bottom: 5px solid #999;
+            background: transparent;
+        }
+
+    .w-support-filters li.active a, .w-support-filters li.active a:hover {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 5px solid #0061ce;
+    }
+
+.w-games {
+    width: 100%;
+    list-style: none;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+    .w-games li a {
+        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 8px;
+        border-bottom: 1px solid #ccc;
+    } 
+
+        .w-games li a:hover .w-games-infos span.game-name {
+            color: #0061ce;
+            text-decoration: underline;
+        }
+
+        .w-games li a:hover .w-games-infos span.game-price {
+            color: #0061ce;
+        }   
+
+    .w-games-thumb {
+        display: block;
+        float: left;
+        width: 35%;
+        padding: 0 0 0 2%;
+    }
+        .w-games-thumb img {
+            width: 100%;
+        }
+
+    .w-games-infos {
+        display: block;
+        float: right;
+        width: 57%;
+        padding: 0 2%;
+        vertical-align: top;
+    }
+        
+        .w-games-infos span {
+            text-align: right;
+            width: 100%;
+            display: inline-block;
+            }
+
+            .w-games-infos span.game-name {
+                font-size: 0.8rem;
+                color: #999;
+            }
+
+            .w-games-infos span.game-price {
+                font-size: 1.6rem;
+                font-weight: 600;
+                color: #333;
+            }
+
+            .w-games-infos span.game-price img {
+                display: inline-block;
+            }
+
+            .w-games-infos span.game-price img.support {
+               margin-right: 10px; 
+            } 
+
+            .w-games-infos span.game-price img.arrow {
+                margin-left: 5px;
+            }
+        }
+    }
+}
